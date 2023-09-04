@@ -1,0 +1,52 @@
+.pick-dest-title {
+  margin-bottom: 4em;
+}
+.dest-num {
+  color: hsl(225deg 6% 32%);
+}
+.dest-nav li {
+  color: #d0d6f9;
+}
+li.active {
+  border-bottom: 1px solid #fff;
+}
+
+.planet-info {
+  width: 27.8rem;
+  margin-top: 4em;
+}
+.dest-data {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10em;
+  padding: 0 1em;
+}
+.planet-list {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  text-transform: uppercase;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.planet-div-line {
+  height: 2px;
+  background-color: #616476;
+  margin: 3em 0 2em 0;
+}
+.planet-dist-traval-info {
+  display: flex;
+}
+h1,
+.avg-dist-data,
+.travel-time-data {
+  color: #fff;
+  text-transform: uppercase;
+}
+.est-travel-time {
+  margin-left: 4em;
+}
+.avg-dist-text,
+.travel-time-text {
+  text-transform: uppercase;
+}

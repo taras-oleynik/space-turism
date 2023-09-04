@@ -1,0 +1,38 @@
+h1 {
+  font-size: 6rem;
+  letter-spacing: 20px;
+  margin-bottom: 2rem;
+}
+.explore {
+  color: #0b0d17;
+  background-color: #fff;
+  width: 17.25rem;
+  height: 17.25rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+main {
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15em;
+}
+.main-text {
+  width: 28.125rem;
+}
+h4,
+p {
+  color: #d0d6f9;
+}
+h4,
+h1,
+.explore {
+  text-transform: uppercase;
+}
+h4 {
+  letter-spacing: 6px;
+  margin-bottom: 2em;
+}
