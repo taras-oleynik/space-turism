@@ -1,5 +1,3 @@
-import Nav from "./Nav";
-import moon from "../images/image-moon.png";
 import Moon from "./Moon";
 import Mars from "./Mars";
 import Europa from "./Europa";

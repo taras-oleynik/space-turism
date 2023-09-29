@@ -8,7 +8,7 @@ function Titan({ planet, setPlanet }) {
       <Nav />
       <div className="dest-data">
         <div className="planet-view">
-          <h4 className="pick-dest-title" style={{ color: "#fff" }}>
+          <h4 className="pick-dest-title">
             <span className="dest-num">01</span>
             Pick your Destanation
           </h4>

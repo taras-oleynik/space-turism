@@ -1,5 +1,15 @@
+.destanation-container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../images/background-destination-desktop.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #0b0d17;
+  background-attachment: fixed;
+}
 .pick-dest-title {
   margin-bottom: 4em;
+  color: #fff;
 }
 .dest-num {
   color: hsl(225deg 6% 32%);

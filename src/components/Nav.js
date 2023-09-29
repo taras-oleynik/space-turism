@@ -17,7 +17,7 @@ function Nav() {
           <NavLink to="/crew">02 Crew</NavLink>
         </li>
         <li>
-          <a href="#">03 Technology</a>
+          <NavLink to="/technology">03 Technology</NavLink>
         </li>
       </ul>
     </nav>

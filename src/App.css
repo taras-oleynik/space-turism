@@ -27,12 +27,56 @@ p {
   background-color: #0b0d17;
   background-attachment: fixed;
 }
-.destanation-container {
+.technology-container {
   width: 100vw;
   height: 100vh;
-  background-image: url(./images/background-destination-desktop.jpg);
+  background-image: url(./images/background-technology-desktop.jpg);
   background-size: contain;
-  background-repeat: no-repeat;
+  background-repeat: round;
   background-color: #0b0d17;
   background-attachment: fixed;
+}
+.pick-dest-title,
+.pages {
+  margin-left: 9em;
+}
+.pick-dest-title {
+  margin-top: 4em;
+}
+.technology-data {
+  display: flex;
+  margin-top: 10em;
+}
+.technology-info {
+  margin-left: 5em;
+}
+.page-number,
+.launch-title {
+  color: #fff;
+}
+.launch-title {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+.page-number {
+  font-size: 3rem;
+  border-radius: 50%;
+  background-color: black;
+  color: #fff;
+  border: 1px solid #fff;
+  width: 4rem;
+  height: 4rem;
+  text-align: center;
+  margin-bottom: 0.5em;
+  cursor: pointer;
+}
+.short-descr {
+  line-height: 2;
+}
+.technology-photo {
+  margin-left: auto;
+}
+.active-technology-page {
+  background-color: #fff;
+  color: black;
 }
