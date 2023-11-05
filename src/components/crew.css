@@ -26,7 +26,7 @@
   }
 }
 .crew-photo img {
-  width: 120%;
+  width: 80%;
 }
 @media (max-width: 900px) {
   .crew-photo img {
