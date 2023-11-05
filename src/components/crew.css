@@ -7,19 +7,43 @@
   background-color: #0b0d17;
   background-attachment: fixed;
 }
+@media (max-width: 900px) {
+  .crew-container {
+    min-width: 800px;
+    background-image: url(../images/background-crew-tablet.jpg);
+  }
+}
 .crew-data {
   display: flex;
   margin-top: 10em;
   justify-content: space-around;
 }
+@media (max-width: 900px) {
+  .crew-data {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+  }
+}
 .crew-photo img {
   width: 120%;
+}
+@media (max-width: 900px) {
+  .crew-photo img {
+    width: 80%;
+    margin-top: 1em;
+  }
 }
 .info {
   max-width: 32rem;
 }
 .crew-position {
   color: hsl(225deg 6% 32%);
+}
+@media (max-width: 900px) {
+  .crew-position {
+    text-align: center;
+  }
 }
 .name-crew-member {
   font-size: 2.5rem;

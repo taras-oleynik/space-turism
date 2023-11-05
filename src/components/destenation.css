@@ -7,9 +7,23 @@
   background-color: #0b0d17;
   background-attachment: fixed;
 }
+@media (max-width: 900px) {
+  .destanation-container {
+    min-width: 800px;
+    background-image: url(../images/background-destination-tablet.jpg);
+  }
+}
 .pick-dest-title {
   margin-bottom: 4em;
   color: #fff;
+}
+.planet-img {
+  margin-left: 8em;
+}
+@media (max-width: 900px) {
+  .planet-img {
+    margin-left: 11em;
+  }
 }
 .dest-num {
   color: hsl(225deg 6% 32%);
@@ -23,13 +37,23 @@ li.active {
 
 .planet-info {
   width: 27.8rem;
-  margin-top: 4em;
+  margin-top: 8em;
+}
+@media (max-width: 900px) {
+  .planet-info {
+    align-self: center;
+  }
 }
 .dest-data {
   display: flex;
   justify-content: space-around;
-  margin-top: 10em;
+  margin-top: 2em;
   padding: 0 1em;
+}
+@media (max-width: 900px) {
+  .dest-data {
+    flex-direction: column;
+  }
 }
 .planet-list {
   padding: 0;

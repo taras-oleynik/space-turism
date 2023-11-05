@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./technology.css";
 import LaunchVehicle from "./LaunchVehicle";
 import SpaceCapsule from "./SpaceCapsule";
 import SpacePort from "./SpacePort";

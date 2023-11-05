@@ -1,5 +1,6 @@
 import imageSpaceCapsule from "../images/image-spaceport-landscape.jpg";
 import Nav from "./Nav";
+import "./technology.css";
 import SwitcherTechnology from "./SwitcherTechnology";
 function SpacePort({ launchPage, setLaunchPage }) {
   return (

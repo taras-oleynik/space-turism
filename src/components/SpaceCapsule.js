@@ -1,5 +1,6 @@
 import imageSpaceCapsule from "../images/image-space-capsule-landscape.jpg";
 import Nav from "./Nav";
+import "./technology.css";
 import SwitcherTechnology from "./SwitcherTechnology";
 function SpaceCapsule({ launchPage, setLaunchPage }) {
   return (

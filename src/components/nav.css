@@ -35,6 +35,11 @@ nav li {
   align-self: center;
   background-color: #616476;
 }
+@media (max-width: 900px) {
+  .nav-line {
+    display: none;
+  }
+}
 .current-page:hover {
   color: #fff;
 }

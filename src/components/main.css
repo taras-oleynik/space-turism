@@ -20,9 +20,25 @@ main {
   justify-content: space-around;
   margin-top: 15em;
 }
+@media (max-width: 900px) {
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .main-text {
   width: 28.125rem;
 }
+@media (max-width: 900px) {
+  .main-text {
+    display: flex;
+    flex-direction: column;
+  }
+  h4 {
+    order: -1;
+  }
+}
+
 h4,
 p {
   color: #d0d6f9;
@@ -31,6 +47,11 @@ h4,
 h1,
 .explore {
   text-transform: uppercase;
+}
+@media (max-width: 900px) {
+  .explore {
+    margin-top: 4em;
+  }
 }
 h4 {
   letter-spacing: 6px;

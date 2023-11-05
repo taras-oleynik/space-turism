@@ -12,7 +12,7 @@ function Mars({ planet, setPlanet }) {
             <span className="dest-num">01</span>
             Pick your Destanation
           </h4>
-          <img src={mars} alt="mars" />;
+          <img className="planet-img" src={mars} alt="mars" />;
         </div>
         <div className="planet-info">
           <SubNav setPlanet={setPlanet} planet={planet} />

@@ -13,7 +13,7 @@ function Moon({ planet, setPlanet }) {
             <span className="dest-num">01</span>
             Pick your Destanation
           </h4>
-          <img src={moon} alt="moon" />;
+          <img className="planet-img" src={moon} alt="moon" />;
         </div>
         <div className="planet-info">
           <SubNav setPlanet={setPlanet} planet={planet} />

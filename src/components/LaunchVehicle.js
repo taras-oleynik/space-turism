@@ -1,5 +1,6 @@
 import launch from "../images/image-launch-vehicle-landscape.jpg";
 import Nav from "./Nav";
+import "./technology.css";
 import SwitcherTechnology from "./SwitcherTechnology";
 function LaunchVehicle({ launchPage, setLaunchPage }) {
   return (
